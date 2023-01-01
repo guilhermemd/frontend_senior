@@ -1,5 +1,5 @@
-### This is a repository with few tricks from [https://www.instagram.com/frontend_senior/](@frontrnd_senior)
+### This is a repository with few CSS and JS tricks from [@frontrnd_senior](https://www.instagram.com/frontend_senior/)
 
-[https://www.instagram.com/p/CmoXMLDJd-s/](happy-new-year)
+[happy-new-year](https://www.instagram.com/p/CmoXMLDJd-s/)
 
 ``` git checkout happy-new-year ```
