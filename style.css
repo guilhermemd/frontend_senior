@@ -1,1 +1,41 @@
+body {
+  background: linear-gradient(
+    179.4deg,
+    rgb(12, 20, 69) -16.9%,
+    rgb(71, 30, 84) 119.9%
+  );
+  display: flex;
+  height: 100vw;
+}
 
+.text {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  align: center;
+  margin: 0 auto;
+  font-family: ui-monospace;
+  padding-top: 10rem;
+}
+
+span {
+  width: 50px;
+  height: 50px;
+  background: url(snow.png);
+  background-size: cover;
+  pointer-events: none;
+  position: absolute;
+  animation: snowFallDown 2s linear forwards;
+}
+
+@keyframes snowFallDown {
+  0% {
+    opacity: 1;
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    transform: translate(50%, 1000%);
+    filter: hue-rotate(360deg);
+    opacity: 0;
+  }
+}
