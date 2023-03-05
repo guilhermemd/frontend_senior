@@ -22,7 +22,9 @@ ul li {
 }
 ul li a {
   text-decoration: none;
+  font-family: "FontAwesome";
 }
+
 ul li a .fa-brands {
   font-size: 6em;
   color: #222;
