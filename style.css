@@ -10,6 +10,7 @@ body {
   height: 100vh;
   background: #000;
 }
+
 ul {
   position: relative;
   display: flex;
@@ -25,9 +26,6 @@ ul li a {
 }
 
 ul li a .fa-brands {
-  /* font-family: "FontAwesome";
-  font-size: 6em;
-  color: #222; */
   display: none;
 }
 
